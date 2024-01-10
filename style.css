@@ -1,0 +1,44 @@
+.contbg{
+    background-color: whitesmoke;
+}
+body{
+    background-color: #FFE382;
+}
+.shadowd:hover{
+    border: 10px solid black;
+    border-top: none;
+    border-left: none;
+    transition: 0.3s;
+
+}
+.afteref:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    background-color: lightgrey;
+    padding-right: 0px;
+    border: 2px solid black;
+}
+.primarybt{
+    color: blue;
+}
+.whitebt{
+    color: white;
+}
+hr{
+   
+    border: 6px dotted red;
+    border-bottom: none;
+    width: 25%;
+    margin: 20px auto;
+}
+.textpx{
+    text-align: center;
+}
+@media (max-width: 990px) {
+    .mediatp{
+        margin-top: 30px;
+    }
+}
+.bgcolor{
+    background-color: #FFC47E;
+}
